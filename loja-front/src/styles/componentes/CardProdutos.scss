@@ -38,15 +38,15 @@
   .CardProduto span {
     font-size: 14px;
     color: #e67e22;
-    font-weight: 600; /* Preço em negrito */
-    margin-bottom: 12px; /* Adicionando espaço entre o preço e o botão */
+    font-weight: 600; 
+    margin-bottom: 12px; 
   }
   
   .product-cta button {
-    background: linear-gradient(135deg, #6e8efb, #a777e3); /* Gradiente de fundo no botão */
+    background: linear-gradient(135deg, #6e8efb, #a777e3); 
     color: #fff;
     border: none;
-    padding: 10px 20px; /* Botão um pouco maior para visual melhor */
+    padding: 10px 20px; 
     border-radius: 25px;
     font-size: 14px;
     cursor: pointer;
@@ -59,14 +59,14 @@
   }
   
   .product-cta button:hover {
-    background: linear-gradient(135deg, #5b7bdf, #8e66c7); /* Alterando gradiente no hover */
+    background: linear-gradient(135deg, #5b7bdf, #8e66c7); 
   }
   
   .product-cta button svg {
     margin-right: 8px;
   }
   
-  /* Media Query para telas menores (tablets) */
+
   @media (max-width: 768px) {
     .Lista-CardProduto {
       grid-template-columns: repeat(2, 1fr);
@@ -91,7 +91,7 @@
     }
   }
   
-  /* Media Query para telas pequenas (celulares) */
+ 
   @media (max-width: 480px) {
     .Lista-CardProduto {
       grid-template-columns: 1fr;

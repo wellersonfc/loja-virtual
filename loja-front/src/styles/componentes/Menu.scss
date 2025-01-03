@@ -2,7 +2,7 @@
     header {
         display: flex;
         align-items: center;
-        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        justify-content: center; 
         padding: 20px;
         background: linear-gradient(135deg, #ffffff, #f0f0f0);
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -94,7 +94,6 @@
         right: -10px;
     }
 
-    /* Mobile styles */
     @media (max-width: 768px) {
         header {
             flex-direction: column;
@@ -127,7 +126,7 @@
         display: none;
     }
 
-    /* Mobile styles */
+ 
     @media (max-width: 768px) {
         header {
             flex-direction: column;

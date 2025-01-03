@@ -10,8 +10,12 @@ Boa tarde, esse é um projeto feito por mim, **Wellerson Ferreira de Carvalho**,
   ![Login](https://iili.io/2U3fWHF.png)
 
 - **Listar produtos e buscar por eles**  
-  É possível listar todos os produtos disponíveis e realizar buscas para encontrar produtos específicos.  
+  É possível listar todos os produtos disponíveis.   
   ![Listar Produtos](https://iili.io/2U3BDue.png)
+
+- **Buscas dinamicas pelo input no menu**  
+ Realizar buscas para encontrar produtos específicos.
+ ![Listar Produtos](https://iili.io/2U3xrRS.png)
 
 - **Detalhamento do produto e carrinho de compras**  
   Ao selecionar um produto, o sistema mostra os detalhes e permite adicionar o item ao carrinho, com a quantidade ajustável.  

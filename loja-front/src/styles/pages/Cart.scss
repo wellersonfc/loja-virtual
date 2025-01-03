@@ -1,0 +1,221 @@
+.Cart-Page {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        height: 100vh;
+    }
+    
+    .cart-section,
+    .summary-section {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    
+    .cart-section {
+        max-height: 99vh;
+        overflow-y: auto; 
+    }
+
+
+    .cart-section::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .cart-section::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+
+    .cart-section::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.4); 
+    }
+
+    .cart-section::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+
+    /* Firefox */
+    .cart-section {
+        scrollbar-width: thin; 
+        scrollbar-color: rgba(0, 0, 0, 0.2) transparent; 
+    }
+
+
+    .cart-section h1 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        color: #6e8efb;
+        text-align: center;
+    }
+
+    .cart-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart-item img {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .item-details {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .item-details h2 {
+        font-size: 1.2rem;
+        margin: 0;
+        color: #333;
+    }
+    
+    .item-details p {
+        margin: 5px 0;
+        color: #666;
+    }
+    
+    .quantity {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .quantity label {
+        margin-right: 10px;
+        color: #666;
+    }
+    
+    .quantity input {
+        width: 50px;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    
+    .remove-btn {
+        padding: 10px;
+        background-color: #ff6b6b;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .remove-btn:hover {
+        background-color: #ff4c4c;
+    }
+    
+    .summary-section {
+        background: linear-gradient(135deg, #6e8efb, #a777e3);
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .summary-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .summary-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .summary-item p {
+        font-size: 1.2rem;
+    }
+    
+    .continue-btn,
+    .checkout-btn {
+        padding: 10px 20px;
+        background-color: white;
+        color: #6e8efb;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .continue-btn:hover, .checkout-btn:hover {
+        background-color: #e3d1ff;
+    }
+    
+    @media (min-width: 768px) {
+        .container {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 40px;
+        }
+    
+        .cart-section {
+            flex: 2;
+            margin-right: 20px;
+        }
+    
+        .summary-section {
+            flex: 1;
+        }
+    
+        .cart-item {
+            flex-direction: row;
+            text-align: left;
+        }
+    
+        .cart-item img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+    
+        .item-details {
+            width: auto;
+        }
+    
+        .quantity {
+            justify-content: flex-start;
+        }
+    
+        .remove-btn {
+            width: auto;
+        }
+    
+        .summary-section h2 {
+            font-size: 1.8rem;
+        }
+    
+        .summary-item {
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+    
+        .summary-item p {
+            font-size: 1.5rem;
+        }
+    }
+    
+}

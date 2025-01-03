@@ -6,19 +6,20 @@ Boa tarde, esse é um projeto feito por mim, **Wellerson Ferreira de Carvalho**,
 
 - **Cadastro e login de clientes (Frontend e Backend)**  
   A loja permite que os clientes se cadastrem e façam login.  
-  ![Cadastro e Login](https://iili.io/2U3qrrB.png)
+  ![Cadastro](https://iili.io/2U3qrrB.png)
+  ![Login](https://iili.io/2U3fWHF.png)
 
 - **Listar produtos e buscar por eles**  
   É possível listar todos os produtos disponíveis e realizar buscas para encontrar produtos específicos.  
-  ![Listar Produtos](caminho/para/sua/imagem.png)
+  ![Listar Produtos](https://iili.io/2U3BDue.png)
 
 - **Detalhamento do produto e carrinho de compras**  
   Ao selecionar um produto, o sistema mostra os detalhes e permite adicionar o item ao carrinho, com a quantidade ajustável.  
-  ![Detalhamento do Produto](caminho/para/sua/imagem.png)
+  ![Detalhamento do Produto](https://iili.io/2U3CWH7.png)
 
 - **Carrinho de Compras**  
   O carrinho exibe os produtos adicionados, permitindo aumentar ou diminuir a quantidade de itens.  
-  ![Carrinho de Compras](caminho/para/sua/imagem.png)
+  ![Carrinho de Compras](https://iili.io/2U3nXgp.png)
 
 ## Dependências
 

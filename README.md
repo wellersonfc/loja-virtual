@@ -6,7 +6,7 @@ Boa tarde, esse é um projeto feito por mim, **Wellerson Ferreira de Carvalho**,
 
 - **Cadastro e login de clientes (Frontend e Backend)**  
   A loja permite que os clientes se cadastrem e façam login.  
-  ![Cadastro e Login]([https://iili.io/2U3qrrB.png](https://iili.io/2U3fWHF.png))
+  ![Cadastro e Login](https://iili.io/2U3qrrB.png)
 
 - **Listar produtos e buscar por eles**  
   É possível listar todos os produtos disponíveis e realizar buscas para encontrar produtos específicos.  
